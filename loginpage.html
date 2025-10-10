@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login page</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            background-image: url("web image/image_six.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+
+
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;"> HENGO FAMILY </h1>
+    <h2 style="text-align: center;">Login Page</h2>
+
+    <form style="text-align: center; font-size: 30px;">
+        <!--This is for Email input-->
+        <label for="email" form="user_email">Email:</label>
+        <input id="email" required name="user_email" placeholder="someone@gmail.com" type="email"><br><br>
+
+        <!--This for password inputs-->
+        <label for="password" form="user_password">Password:</label>
+        <input id="password" type="password" required name="user_password" placeholder="Use strong password"><br><br>
+
+        <!--This for Login button-->
+        <input type="submit" value="Login"><br><br>
+    </form>
+    <p style="text-align: center;">You can <a href="http://127.0.0.1:5500/website/create_account.html">create
+            account</a> here</p>
+
+</body>
+
+</html>
